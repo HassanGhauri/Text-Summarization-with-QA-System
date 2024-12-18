@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    More info
+{% endblock %}
+
+{% block main %}
+    <h2>Project "TXT-SUM WITH Q/A"</h2>
+    <br>
+    <p>
+        <i>"TXT-SUM WITH Q/A" ("Text Summarization with QA.")</i> project is a website which allows a user to upload a text document
+    </p>
+    <ul>
+        <li>
+            get it summarized or
+        </li>
+        <li>
+            get answers to the user's questions based on the summarized text.
+        </li>
+    </ul>
+    <img src="/static/tldr_demo.gif" alt="TXT-SUM WITH Q/A Demo (gif)">
+    <br>
+    <br>
+    <p>
+        Text is summarized following extractive summarization approach using distilbart-cnn-12-6 (<a href="https://huggingface.co/sshleifer/distilbart-cnn-12-6">distilbart-cnn-12-6</a>) and question answering is implemented using a pre-trained machine learning model <a href="https://en.wikipedia.org/wiki/BERT_(language_model)">BERT</a>.
+    </p>
+    <p>
+        Frontend: HTML/CSS-Bootstrap/JS.
+        <br>
+        Backend: Python/Flask.
+    </p>
+    <p>
+        Source code: <a href="#">#</a>
+    </p>
+{% endblock %}
+
+{% block footer %}
+
+    <a href="/">Main</a>
+
+{% endblock %}

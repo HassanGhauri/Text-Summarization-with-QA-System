@@ -1,0 +1,15 @@
+body
+{
+  font-family: 'Bitter', serif;
+  font-size:18x;
+}
+
+textarea {
+  margin:0px 0px;
+  padding:10px;
+  height:180px;
+  line-height:18px;
+  width:100%;
+  display:block;
+  margin:0px auto;    
+}
